@@ -14,10 +14,9 @@ int main(void)
 
 	while (ch <= 'z')
 	{
-		putchar("the caracter is %c", ch);
-		ch++;
+		putchar(ch);
+		++ch;
 	}
-	putchar("\n");
-	
+	putchar('\n');
 	return (0);
 }
